@@ -46,6 +46,21 @@ body {
             justify-content: center;
             align-items: center;
         }
+        
+        // 호버시 모션처리
+        &:hover {
+            background: aqua;
+
+            h2{
+                color: #fff;
+            }
+            p {
+                color: #fff;
+            }
+            a{
+                color: yellow;
+            }
+        }
     }
 
  }
